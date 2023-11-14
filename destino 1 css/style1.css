@@ -16,17 +16,17 @@
 .main_header_logo { font-size:0; float:left; border-top: 3px solid yellow; height: 100%; padding-top: 10px;}
 .main_header_logo img { height:100px; }
 
-.mobile_action        { color: #646464; text-align:center; width:40px; height:40px; line-height:45px; font-size:1.8em; float:right; cursor:pointer; margin:30px 8px; }
-.mobile_action.active { color:#0E2F80; }
+.mobile_action        { color: white; text-align:center; width:40px; height:40px; line-height:45px; font-size:1.8em; float:right; cursor:pointer; margin:30px 8px; }
+.mobile_action.active { color:yellow; }
 
 /*MENU*/
 
 /*1279PX BREAKPOINT - 1279 dividido por 16 = 79.9375em*/
 @media (max-width: 79.9375em){
-.main_header_nav { position:fixed; left:-100%; background-color:#36312b; top:0; width:76%; min-width:200px; max-width:360px; height:100%; overflow:hidden; overflow-y:auto; -webkit-box-shadow:5px 0px 5px -5px rgba(0,0,0,0.75); -moz-box-shadow:5px 0px 5px -5px rgba(0,0,0,0.75); box-shadow:5px 0px 5px -5px rgba(0,0,0,0.75); z-index:99;  }
-.main_header_nav_item      { float:left; width:100%; position:relative; border-bottom:1px #4c463e solid; }
+.main_header_nav { position:fixed; left:-100%; background-color:#3347a1; top:0; width:76%; min-width:200px; max-width:360px; height:100%; overflow:hidden; overflow-y:auto; -webkit-box-shadow:5px 0px 5px -5px rgba(0,0,0,0.75); -moz-box-shadow:5px 0px 5px -5px rgba(0,0,0,0.75); box-shadow:5px 0px 5px -5px rgba(0,0,0,0.75); z-index:99;  }
+.main_header_nav_item      { float:left; width:100%; position:relative; border-bottom:1px white solid; }
 .main_header_nav_item > a  { float:left; width:100%; padding:8px 23px; font-family:'open_sansregular'; text-decoration:none; color:#ffffff; font-size:1em; }
-.main_header_nav_item:hover,.main_header_nav_item > a:hover { background-color:yellow; color:#ffffff; }
+.main_header_nav_item:hover,.main_header_nav_item > a:hover { background-color:yellow; color:black; }
 .main_header_nav_item  span   { width:25px; height:25px; line-height:28px; text-align:center; font-size:1.2em; float:right; display:block; }
 
 }
