@@ -267,8 +267,8 @@ h3:after {
 .footer .formulario .campo           { display:block; border-radius:3px; box-sizing:border-box; background-color: #fbe8dc; box-shadow: 0 2px 1px 0px #3347a1; border:none; resize:none; outline:none; font:inherit; font-size:14px; font-family:'DM Sans', sans-serif; font-weight:normal; color:#36312b; width:100%; padding:18px; margin-bottom:20px; }
 .footer .formulario .campo-textarea  { display:block; border-radius:3px; box-sizing:border-box; background-color: #fbe8dc; box-shadow: 0 2px 1px 0px #3347a1; border:none; resize:none; outline:none; font:inherit; font-size:14px; font-family:'DM Sans', sans-serif; font-weight:normal; color:#36312b; width:100%; padding:18px; margin-bottom:20px; }
 
-.footer .formulario .campo:focus          { color: #fbe8dc;  }
-.footer .formulario .campo-textarea:focus { color: #fbe8dc;  }
+.footer .formulario .campo:focus          { color: #3347a1;  }
+.footer .formulario .campo-textarea:focus { color: #3347a1;  }
 
 .footer ::-webkit-input-placeholder { color: #5c666b; }
 .footer ::-moz-placeholder          { color: #5c666b; opacity:1; }
@@ -307,8 +307,8 @@ h3:after {
 
   .blocoArtigo .desc h3    { font-size: 1.5em; }
 
-  .galeria .foto { width:48%; margin-right:4%; margin-bottom:4%;}
-  .galeria .foto:nth-of-type(2n+0) { margin-right:0; }
+  .section-galeria .foto { width:48%; margin-right:4%; margin-bottom:4%;}
+  .section-galeria .foto:nth-of-type(2n+0) { margin-right:0; }
 
   .section-cardapio .content  { float:left; padding: 1em 0 1em 0; }
   .section-galeria .content     { float:left; padding: 1em 0 1em 0; }
@@ -364,9 +364,9 @@ h3:after {
   .main_header_nav_item:hover, 
   .main_header_nav_item > a:hover { background: transparent; color: #36312b; }
 
-  .galeria .foto:nth-of-type(2n+0), 
-  .galeria .foto { width:23.5%; margin-right:2%; margin-bottom:2%; }
-  .galeria .foto:nth-of-type(4n+0) { margin-right:0; }
+  .section-galeria .foto:nth-of-type(2n+0), 
+  .section-galeria .foto { width:23.5%; margin-right:2%; margin-bottom:2%; }
+  .section-galeria .foto:nth-of-type(4n+0) { margin-right:0; }
 
   .topoPag .centraliza h1 { font-size:5.5em; margin-top:50px; }
   .topoPag .centraliza p  { letter-spacing:13.5px; }

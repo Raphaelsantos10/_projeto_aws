@@ -7,31 +7,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./destino 1 css/destino1.css">
     <link rel="stylesheet" href="./destino 1 css/style.css">
-    <script src="./js destino 1/html5shiv.js"></script>
-    <link rel="stylesheet" type="text/css" href="./destino 1 css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./destino 1 css/fonts-icones.css">
-    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./destino 1 css/magnific-popup.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <scrip src="./js destino 1/html5shiv.js">
+        <link rel="stylesheet" type="text/css" href="./destino 1 css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./destino 1 css/fonts-icones.css">
+        <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./destino 1 css/magnific-popup.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./destino 1 css/style1.css">
+        <link rel="stylesheet" href="./destino 1 css/fonts-icones1.css">
+        <link rel="stylesheet" href="./destino 1 css/shadowbox/shadowbox.css">
+        <link rel="stylesheet" href="./destino 1 css/magnific-popup1.css">
     <title>Urubici</title>
 </head>
 
 <body>
     <!--Header-->
-    <header>
-        <div class="logo">
-            <a href="index.html"><img src="img\JLR-tour.jpeg" title="JLR-tour" alt="JLR-tour" align="left"></a>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="destino-1.html">Bahia</a></li>
-                <li><a href="destino-2.html">Porto de Galinhas</a></li>
-                <li><a href="destino-3.html">São Roque - SP</a></li>
-                <li><a href="destino-4.html">Urubici</a></li>
-                <li><a href="contato.html">Contato</a></li>
+     
+     <header class="main_header container">
+        
+        <div class="content">
+        
+            <div class="main_header_logo">
+                <a href="index.html" title="JLR-TOUR"><img src="./img/JLR-tour.jpeg" alt="JLR-TOUR" title="JLR-TOUR"/></a>
+            </div>
+    
+            <div class="icon icon-menu mobile_action"></div>
+    
+            <ul class="main_header_nav" id="top">
+    
+                <li class="main_header_nav_item"><a href="./index.html" class="scrollSuave " title="Home">Home</a></li>
+                <li class="main_header_nav_item"><a href="./destino-1.html" class="scrollSuave" title="Bahia-BA">Bahia-BA</a></li>
+                <li class="main_header_nav_item"><a href="./destino-2.html" class="scrollSuave" title="Porto de Galinhas-PE">Porto de Galinhas-PE</a></li>
+                <li class="main_header_nav_item"><a href="./destino-3.html" class="scrollSuave" title="São Roque-SP">São Roque-SP</a></li>
+                <li class="main_header_nav_item"><a href="./destino-4.html" class="scrollSuave" title="Urubici-SC">Urubici-SC</a></li>
+                <li class="main_header_nav_item"><a href="./contato.html" class="scrollSuave" title="Contato"> Contato</a></li>
+    
             </ul>
-        </nav>
+    
+            <div class="clear"></div>
+        
+        </div>
+    
     </header>
 
     <!--Fim-Header-->
@@ -45,9 +61,7 @@
             <img src="./img_destino_4/22.jpg" alt="Pedra_Furada_Urubici" title="Pedra_Furada_Urubici">
             <img src="./img_destino_4/33.jpg" alt="Hotel_Urubici" title="Urubici">
             <img src="./img_destino_4/44.jpg" alt="Serra_do_corvo_branco" title="Serra_do_corvo_branco">
-            <div class="anuncio">
-                <p class="p_anuncio">Aproveite as férias de dezembro com promoções imperdíveis!!</p>
-            </div>
+           
             <div class="seta arrow-right"><i class="fas fa-chevron-circle-right"></i></div>
             <div class="paginacao">
                 <div class="botao"> <i class="far fa-circle"></i> </div>
@@ -62,12 +76,13 @@
 
     <!--Anuncio-Black-Friday-->
 
-    <section class="black_friday">
-        <img class="black-friday_img" src="./img_destino_1/esquentabfsubviagens.png" alt="black_friday"
-            title="black_friday">
+    <section class="black_friday_home">
+        <img class="black-friday_img"
+            src="https://www.melhoresdestinos.com.br/wp-content/themes/md2018/img/selo-black-friday-2021.png"
+            alt="black friday" title="Black-Friday">
     </section>
 
-    <!-- Fim-Anuncio-Black-Friday-->
+    <!--Fim-Anuncio-Black-Friday-->
 
 
     <!--Introducao-Home-->
@@ -652,144 +667,52 @@
     <!---Fim-seguro-viagem-->
 
 
-    <!---Contato-->
-    <section id="contato" class="section-contato container">
-
-        <div class="content">
-
-            <h2 class="title center verde">Fale Conosco</h2>
-
-            <div class="coluna">
-
-                <form method="post" action="#" class="formulario">
-
-                    <label>
-
-                        <input type="text" name="nome" class="campo" placeholder="Nome" required="">
-
-                    </label>
-
-                    <label>
-
-                        <input type="text" name="email" class="campo" placeholder="E-mail" required="">
-
-                    </label>
-
-                    <label>
-
-                        <textarea name="mensagem" class="campo" placeholder="Deixe sua mensagem" rows="5"
-                            required=""></textarea>
-
-                    </label>
-
-                    <label>
-
-                        <input type="hidden" name="acao" value="enviar">
-                        <button class="btn-enviar" title="Enviar"><a
-                                href="https://web.whatsapp.com/send?phone=5599111112222">Enviar</a></button>
-
-                    </label>
-
-                </form>
-
-            </div><!---Div Coluna-->
-
-            <div class="coluna">
-
-                <div class="info">
-
-                    <p>
-                        A JLR Tour surgiu no mercado a partir da união de quatro profissionais experientes vindos da
-                        área de Programação<br><br>
-
-                        Política de imprevistos e cancelamentos
-
-                        Nossa política de cancelamento não adota taxação ao cliente, porém, o cancelamento deve ser
-                        feito com 2 horas de antecedência via WhatsApp (00) 0 0000-0000. Agradecemos a compreensão!
-
-                    </p>
-
-                    <p><i class="icon icon-calendar"></i> Atendimento: Segunda a Sexta</p>
-                    <p><i class="icon icon-pin-1"></i>Brasil</p>
-                    <p><i class="icon icon-phone"></i> 21 0000-0000</p>
-                    <p><i class="icon icon-whatsapp"></i> 21 90000-0000</p>
-                    <p><i class="icon icon-clock-2"></i> 9:00 ás 20:00</p>
-
-                </div>
-
-            </div><!---Div Coluna-->
-
-            <div class="clear"></div>
-        </div>
 
 
-
-
-        <label>
-
-            <a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5599111112222" target="_blank">
-                <i class="fa fa-whatsapp"></i>
-            </a>
-
-        </label>
-
-    </section>
-    <!--Fecha Section Contato-->
-
-
-
-
-
-    <!---Footer-->
+ <!---Footer-->
 
     <footer>
-        <div class="end">
-            <div class="logo-footer">
-                <a href="index.html"><img src="img\JLR-tour.jpeg" title="JLR-tour" alt="JLR-tour" align="left"></a>
-            </div>
-            <div class="conteudo">
-                <h2>Sobre</h2>
-                <p>A empresa de destinos turísticos JLR-tour oferece uma variedade de opções para quem quer conhecer
-                    novos lugares.
-                    Com uma equipe especializada, a empresa garante uma experiência segura e inesquecível para seus
-                    clientes.</p>
-            </div>
-            <div class="conteudo">
-                <h2>Dicas Uteis</h2>
-                <p>
-                <ul>
-                    <li>
-                        Pesquise avaliações de clientes.
-                    </li>
-                    <li>
-                        Verifique a reputação da empresa.
-                    </li>
-                    <li>
-                        Confira se a empresa é credenciada.
-                    </li>
-                    <li>
-                        Compare preços e serviços.
-                    </li>
-                </ul>
-                </p>
-            </div>
-            <div class="conteudo">
-                <h2>CONTATO</h2>
-                <a href=https://web.whatsapp.com/send?phone=5599111112222" target="_blank"><img class="img-icons"
-                        src="img/icons/whatsapp (2).png" alt="logo_Whatsapp" title="Logo_Whatsapp" />WhatsApp</a>
-                <a href="#"><img class="img-icons" src="img/icons/facebook (2).png" alt="Logo_Facebook"
-                        title="Logo_Facebook" />Facebook</a>
-                <a href="#"><img class="img-icons" src="img/icons/instagram (1).png" alt="Logo_Instagram"
-                        title="Logo_Instagram" />Instragam</a>
-                <p><img class="img-icons" src="img/icons/smartphone.png" alt="Numero_Telefone" />(+XX) XXXX-XXXX</p>
-                <p><img class="img-icons" src="img/icons/o-email.png" alt="Email_Empresa" />empresa@exemplo.com</p>
-            </div>
-        </div>
-        <hr>
-        <div class="copyright">
-            <h5>JLR-tour</h5>
-            <p>https://jlrtour.com.br &copy; 2023</p>
-        </div>
+        <footer>
+            <footer class="footer" id="contato">
+            
+                <div class="left">
+                
+                    <h4 class="title-footer">JLR <span>TOUR</span></h4>
+                    <p class="links">
+                        
+                        <a href="./index.html" title="Inicio">Home</a>
+                        <a href="./destino-1.html" title="Salvador-BA">Salvador-BA</a>
+                        <a href="./destino-2.html" title="Porto-de-Galinhas-PE">Porto-de-Galinhas-PE</a>
+                        <a href="./destino-3.html" title="São Roque-SP">São Roque-SP</a>
+                        <a href="./destino-4.html" title="Urubici-SC">Urubici-SC</a>
+                    </p>
+                    <div class="footer-icons">
+                        <a href="#"><i class="icon icon-facebook"></i></a>
+                        <a href="#"><i class="icon icon-instagram"></i></a>
+                        <a href="#"><i class="icon icon-pinterest"></i></a>
+                        <a href="#"><i class="icon icon-twitter"></i></a>
+                    </div>
+                            <p class="Copyright">Copyright &copy; JRL-TOUR</p>
+                          
+                
+                </div><!--Left-->
+                
+                <div class="right">
+                
+                    <h4 class="title-footer">Contato</h4>
+                    <form class="formulario" action="#" method="post">
+                        
+                        <input type="text" class="campo" name="nome" placeholder="Nome" required=""/>
+                        <input type="email" class="campo" name="email" placeholder="E-mail" required=""/>
+                        <input type="text" class="campo" name="assunto" placeholder="assunto" required=""/>
+                        <textarea name="menssagem" class="campo-textarea" placeholder="Menssagem" rows="5" required=""></textarea>
+                        <button class="btn">Enviar</button>
+                    
+                    </form>
+                
+                </div><!--Right-->
+
+            </footer>
 
         <!---Fim-Foooter-->
 
@@ -802,6 +725,12 @@
         <script src="./js destino 1/picturefill.min.js"></script>
         <script src="./js destino 1/jquer2y.js"></script>
         <script src="./js destino 1/scripts2.js"></script>
+        <script src="./js destino 1/3.js"></script>
+        <script src="./js destino 1/jquery3.js"></script>
+        <script src="js destino 1/picturefill.min3.js"></script>
+        <script src="./destino 1 css/shadowbox/shadowbox.js"></script>
+        <script src="./js destino 1/html5shiv3.js"></script>
+        <script src="./js destino 1/jquery.magnific-popup.min3.js"></script>
 
         <!---Fim-javascript-->
 
